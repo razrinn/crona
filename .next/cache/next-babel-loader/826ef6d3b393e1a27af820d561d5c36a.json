@@ -1,0 +1,1 @@
+{"ast":null,"code":"var rootUrl = \"https://indonesia-covid-19.mathdro.id/api\";\nvar summaryUrl = rootUrl;\nvar casesUrl = rootUrl + \"/kasus\";\nvar areaUrl = rootUrl + \"/provinsi\";\nvar dailyUrl = rootUrl + \"/harian\";\nexport { summaryUrl, casesUrl, areaUrl, dailyUrl };","map":null,"metadata":{},"sourceType":"module"}
