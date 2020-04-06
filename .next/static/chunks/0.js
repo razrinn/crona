@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[0],{
 
-/***/ "../nodevenv/crona/10/lib/node_modules/next/dist/client/dev/noop.js":
-/*!**************************************************************************!*\
-  !*** ../nodevenv/crona/10/lib/node_modules/next/dist/client/dev/noop.js ***!
-  \**************************************************************************/
+/***/ "./node_modules/next/dist/client/dev/noop.js":
+/*!***************************************************!*\
+  !*** ./node_modules/next/dist/client/dev/noop.js ***!
+  \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

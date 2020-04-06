@@ -2,7 +2,7 @@ import React from "react";
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles, Box } from "@material-ui/core";
-
+import Head from 'next/head'
 
 import SummaryStats from "../components/SummaryStats";
 import StatsCharts from "../components/StatsCharts";
@@ -28,6 +28,10 @@ const IndexPage = () => {
     const classes = useStyles();
     return (
         <Base>
+            <Head>
+            <title>Crona Project | razrinn</title>
+
+            </Head>
             <Container maxWidth="sm" className={classes.container}>
                 <Spacer variant="vertical">
                     <Typography component="h1" variant="h3" align="center">

@@ -50,7 +50,6 @@ class MyDocument extends Document {
                             }
                         `}
                     </style>
-                    <title>Crona Project | razrinn</title>
                 </Head>
                 <body>
                     <Main />

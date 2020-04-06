@@ -1,5 +1,6 @@
 {
   "name": "coronavirus",
+  "homepage": "http://crona.razrinn.com/",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,7 +18,6 @@
   "bugs": {
     "url": "https://github.com/razrinn/crona/issues"
   },
-  "homepage": "https://github.com/razrinn/crona#readme",
   "dependencies": {
     "@devexpress/dx-react-chart": "^2.6.0",
     "@devexpress/dx-react-chart-material-ui": "^2.6.0",
