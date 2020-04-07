@@ -1056,19 +1056,16 @@ module.exports = __webpack_require__(/*! ./dist/pages/_document */ "./node_modul
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/document */ "./node_modules/next/document.js");
-/* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_document__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _material_ui_styles__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/styles */ "@material-ui/styles");
-/* harmony import */ var _material_ui_styles__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_styles__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/styles */ "@material-ui/core/styles");
-/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/document */ "./node_modules/next/document.js");
+/* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_document__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _material_ui_styles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/styles */ "@material-ui/styles");
+/* harmony import */ var _material_ui_styles__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_styles__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/styles */ "@material-ui/core/styles");
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "/home/razrinn/code/real/coronavirus/pages/_document.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
@@ -1082,18 +1079,18 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 
 
-const theme = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_4__["responsiveFontSizes"])(Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_4__["createMuiTheme"])());
+const theme = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__["responsiveFontSizes"])(Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__["createMuiTheme"])());
 
-class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_2___default.a {
+class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
   render() {
-    return __jsx(next_document__WEBPACK_IMPORTED_MODULE_2__["Html"], {
+    return __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Html"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 11,
         columnNumber: 13
       }
-    }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_2__["Head"], {
+    }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Head"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -1102,7 +1099,6 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_2___default.a {
       }
     }, __jsx("meta", {
       charSet: "utf-8",
-      className: "jsx-1102512094",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -1112,7 +1108,6 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_2___default.a {
     }), __jsx("meta", {
       name: "viewport",
       content: "minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no",
-      className: "jsx-1102512094",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -1122,7 +1117,6 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_2___default.a {
     }), __jsx("meta", {
       name: "theme-color",
       content: theme.palette.primary.main,
-      className: "jsx-1102512094",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -1131,8 +1125,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_2___default.a {
       }
     }), __jsx("link", {
       rel: "stylesheet",
-      href: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons",
-      className: "jsx-1102512094",
+      href: "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -1140,22 +1133,18 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_2___default.a {
         columnNumber: 21
       }
     }), __jsx("link", {
-      rel: "apple-touch-icon",
-      sizes: "180x180",
-      href: "/apple-touch-icon.png",
-      className: "jsx-1102512094",
+      rel: "stylesheet",
+      href: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26,
+        lineNumber: 23,
         columnNumber: 21
       }
     }), __jsx("link", {
-      rel: "icon",
-      type: "image/png",
-      sizes: "32x32",
-      href: "/favicon-32x32.png",
-      className: "jsx-1102512094",
+      rel: "apple-touch-icon",
+      sizes: "180x180",
+      href: "/apple-touch-icon.png",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -1165,9 +1154,8 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_2___default.a {
     }), __jsx("link", {
       rel: "icon",
       type: "image/png",
-      sizes: "16x16",
-      href: "/favicon-16x16.png",
-      className: "jsx-1102512094",
+      sizes: "32x32",
+      href: "/favicon-32x32.png",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -1175,9 +1163,10 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_2___default.a {
         columnNumber: 21
       }
     }), __jsx("link", {
-      rel: "manifest",
-      href: "/site.webmanifest",
-      className: "jsx-1102512094",
+      rel: "icon",
+      type: "image/png",
+      sizes: "16x16",
+      href: "/favicon-16x16.png",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -1185,20 +1174,18 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_2___default.a {
         columnNumber: 21
       }
     }), __jsx("link", {
-      rel: "mask-icon",
-      href: "/safari-pinned-tab.svg",
-      color: "#5bbad5",
-      className: "jsx-1102512094",
+      rel: "manifest",
+      href: "/site.webmanifest",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 30,
         columnNumber: 21
       }
-    }), __jsx("meta", {
-      name: "msapplication-TileColor",
-      content: "#da532c",
-      className: "jsx-1102512094",
+    }), __jsx("link", {
+      rel: "mask-icon",
+      href: "/safari-pinned-tab.svg",
+      color: "#5bbad5",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -1206,37 +1193,42 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_2___default.a {
         columnNumber: 21
       }
     }), __jsx("meta", {
-      name: "theme-color",
-      content: "#ffffff",
-      className: "jsx-1102512094",
+      name: "msapplication-TileColor",
+      content: "#da532c",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 32,
         columnNumber: 21
       }
-    }), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-      id: "1102512094",
-      __self: this
-    }, "html,body{height:100%;width:100%;}*,*:after,*:before{box-sizing:border-box;}body{font-family:\"Roboto\",\"Helvetica\",\"Arial\", sans-serif;font-size:1rem;margin:0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3JhenJpbm4vY29kZS9yZWFsL2Nvcm9uYXZpcnVzL3BhZ2VzL19kb2N1bWVudC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFpQ3lCLEFBSTZDLEFBTVUsQUFJUixZQVRILFVBTWYsQ0FMQSw4QkFTbUIsZUFDTixTQUNiIiwiZmlsZSI6Ii9ob21lL3JhenJpbm4vY29kZS9yZWFsL2Nvcm9uYXZpcnVzL3BhZ2VzL19kb2N1bWVudC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCBEb2N1bWVudCwgeyBIdG1sLCBIZWFkLCBNYWluLCBOZXh0U2NyaXB0IH0gZnJvbSBcIm5leHQvZG9jdW1lbnRcIjtcbmltcG9ydCB7IFNlcnZlclN0eWxlU2hlZXRzIH0gZnJvbSBcIkBtYXRlcmlhbC11aS9zdHlsZXNcIjtcbmltcG9ydCB7IGNyZWF0ZU11aVRoZW1lLCByZXNwb25zaXZlRm9udFNpemVzIH0gZnJvbSBcIkBtYXRlcmlhbC11aS9jb3JlL3N0eWxlc1wiO1xuXG5jb25zdCB0aGVtZSA9IHJlc3BvbnNpdmVGb250U2l6ZXMoY3JlYXRlTXVpVGhlbWUoKSk7XG5cbmNsYXNzIE15RG9jdW1lbnQgZXh0ZW5kcyBEb2N1bWVudCB7XG4gICAgcmVuZGVyKCkge1xuICAgICAgICByZXR1cm4gKFxuICAgICAgICAgICAgPEh0bWw+XG4gICAgICAgICAgICAgICAgPEhlYWQ+XG4gICAgICAgICAgICAgICAgICAgIDxtZXRhIGNoYXJTZXQ9XCJ1dGYtOFwiIC8+XG4gICAgICAgICAgICAgICAgICAgIDxtZXRhXG4gICAgICAgICAgICAgICAgICAgICAgICBuYW1lPVwidmlld3BvcnRcIlxuICAgICAgICAgICAgICAgICAgICAgICAgY29udGVudD1cIm1pbmltdW0tc2NhbGU9MSwgaW5pdGlhbC1zY2FsZT0xLCB3aWR0aD1kZXZpY2Utd2lkdGgsIHNocmluay10by1maXQ9bm9cIlxuICAgICAgICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgICAgICAgICA8bWV0YVxuICAgICAgICAgICAgICAgICAgICAgICAgbmFtZT1cInRoZW1lLWNvbG9yXCJcbiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnQ9e3RoZW1lLnBhbGV0dGUucHJpbWFyeS5tYWlufVxuICAgICAgICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgICAgICAgICA8bGlua1xuICAgICAgICAgICAgICAgICAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXG4gICAgICAgICAgICAgICAgICAgICAgICBocmVmPVwiaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PVJvYm90bzozMDAsNDAwLDUwMCw3MDB8Um9ib3RvK1NsYWI6NDAwLDcwMHxNYXRlcmlhbCtJY29uc1wiXG4gICAgICAgICAgICAgICAgICAgIC8+XG4gICAgICAgICAgICAgICAgICAgIDxsaW5rIHJlbD1cImFwcGxlLXRvdWNoLWljb25cIiBzaXplcz1cIjE4MHgxODBcIiBocmVmPVwiL2FwcGxlLXRvdWNoLWljb24ucG5nXCIvPlxuICAgICAgICAgICAgICAgICAgICA8bGluayByZWw9XCJpY29uXCIgdHlwZT1cImltYWdlL3BuZ1wiIHNpemVzPVwiMzJ4MzJcIiBocmVmPVwiL2Zhdmljb24tMzJ4MzIucG5nXCIvPlxuICAgICAgICAgICAgICAgICAgICA8bGluayByZWw9XCJpY29uXCIgdHlwZT1cImltYWdlL3BuZ1wiIHNpemVzPVwiMTZ4MTZcIiBocmVmPVwiL2Zhdmljb24tMTZ4MTYucG5nXCIvPlxuICAgICAgICAgICAgICAgICAgICA8bGluayByZWw9XCJtYW5pZmVzdFwiIGhyZWY9XCIvc2l0ZS53ZWJtYW5pZmVzdFwiLz5cbiAgICAgICAgICAgICAgICAgICAgPGxpbmsgcmVsPVwibWFzay1pY29uXCIgaHJlZj1cIi9zYWZhcmktcGlubmVkLXRhYi5zdmdcIiBjb2xvcj1cIiM1YmJhZDVcIi8+XG4gICAgICAgICAgICAgICAgICAgIDxtZXRhIG5hbWU9XCJtc2FwcGxpY2F0aW9uLVRpbGVDb2xvclwiIGNvbnRlbnQ9XCIjZGE1MzJjXCIvPlxuICAgICAgICAgICAgICAgICAgICA8bWV0YSBuYW1lPVwidGhlbWUtY29sb3JcIiBjb250ZW50PVwiI2ZmZmZmZlwiPjwvbWV0YT5cbiAgICAgICAgICAgICAgICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+XG4gICAgICAgICAgICAgICAgICAgICAgICB7YFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGh0bWwsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9keSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICosXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgKjphZnRlcixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAqOmJlZm9yZSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvZHkge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseTogXCJSb2JvdG9cIiwgXCJIZWx2ZXRpY2FcIiwgXCJBcmlhbFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2Fucy1zZXJpZjtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiAxcmVtO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgYH1cbiAgICAgICAgICAgICAgICAgICAgPC9zdHlsZT5cbiAgICAgICAgICAgICAgICA8L0hlYWQ+XG4gICAgICAgICAgICAgICAgPGJvZHk+XG4gICAgICAgICAgICAgICAgICAgIDxNYWluIC8+XG4gICAgICAgICAgICAgICAgICAgIDxOZXh0U2NyaXB0IC8+XG4gICAgICAgICAgICAgICAgPC9ib2R5PlxuICAgICAgICAgICAgPC9IdG1sPlxuICAgICAgICApO1xuICAgIH1cbn1cblxuTXlEb2N1bWVudC5nZXRJbml0aWFsUHJvcHMgPSBhc3luYyAoY3R4KSA9PiB7XG4gICAgLy8gUmVuZGVyIGFwcCBhbmQgcGFnZSBhbmQgZ2V0IHRoZSBjb250ZXh0IG9mIHRoZSBwYWdlIHdpdGggY29sbGVjdGVkIHNpZGUgZWZmZWN0cy5cbiAgICBjb25zdCBzaGVldHMgPSBuZXcgU2VydmVyU3R5bGVTaGVldHMoKTtcbiAgICBjb25zdCBvcmlnaW5hbFJlbmRlclBhZ2UgPSBjdHgucmVuZGVyUGFnZTtcblxuICAgIGN0eC5yZW5kZXJQYWdlID0gKCkgPT5cbiAgICAgICAgb3JpZ2luYWxSZW5kZXJQYWdlKHtcbiAgICAgICAgICAgIGVuaGFuY2VBcHA6IChBcHApID0+IChwcm9wcykgPT4gc2hlZXRzLmNvbGxlY3QoPEFwcCB7Li4ucHJvcHN9IC8+KSxcbiAgICAgICAgfSk7XG5cbiAgICBjb25zdCBpbml0aWFsUHJvcHMgPSBhd2FpdCBEb2N1bWVudC5nZXRJbml0aWFsUHJvcHMoY3R4KTtcblxuICAgIHJldHVybiB7XG4gICAgICAgIC4uLmluaXRpYWxQcm9wcyxcbiAgICAgICAgLy8gU3R5bGVzIGZyYWdtZW50IGlzIHJlbmRlcmVkIGFmdGVyIHRoZSBhcHAgYW5kIHBhZ2UgcmVuZGVyaW5nIGZpbmlzaC5cbiAgICAgICAgc3R5bGVzOiBbXG4gICAgICAgICAgICA8UmVhY3QuRnJhZ21lbnQga2V5PVwic3R5bGVzXCI+XG4gICAgICAgICAgICAgICAge2luaXRpYWxQcm9wcy5zdHlsZXN9XG4gICAgICAgICAgICAgICAge3NoZWV0cy5nZXRTdHlsZUVsZW1lbnQoKX1cbiAgICAgICAgICAgIDwvUmVhY3QuRnJhZ21lbnQ+LFxuICAgICAgICBdLFxuICAgIH07XG59O1xuXG5leHBvcnQgZGVmYXVsdCBNeURvY3VtZW50O1xuIl19 */\n/*@ sourceURL=/home/razrinn/code/real/coronavirus/pages/_document.js */")), __jsx("body", {
+    }), __jsx("meta", {
+      name: "theme-color",
+      content: "#ffffff",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 54,
-        columnNumber: 17
-      }
-    }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_2__["Main"], {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 55,
+        lineNumber: 33,
         columnNumber: 21
       }
-    }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_2__["NextScript"], {
+    })), __jsx("body", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 56,
+        lineNumber: 35,
+        columnNumber: 17
+      }
+    }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36,
+        columnNumber: 21
+      }
+    }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37,
         columnNumber: 21
       }
     })));
@@ -1246,7 +1238,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_2___default.a {
 
 MyDocument.getInitialProps = async ctx => {
   // Render app and page and get the context of the page with collected side effects.
-  const sheets = new _material_ui_styles__WEBPACK_IMPORTED_MODULE_3__["ServerStyleSheets"]();
+  const sheets = new _material_ui_styles__WEBPACK_IMPORTED_MODULE_2__["ServerStyleSheets"]();
   const originalRenderPage = ctx.renderPage;
 
   ctx.renderPage = () => originalRenderPage({
@@ -1254,21 +1246,21 @@ MyDocument.getInitialProps = async ctx => {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 70,
+        lineNumber: 51,
         columnNumber: 60
       }
     })))
   });
 
-  const initialProps = await next_document__WEBPACK_IMPORTED_MODULE_2___default.a.getInitialProps(ctx);
+  const initialProps = await next_document__WEBPACK_IMPORTED_MODULE_1___default.a.getInitialProps(ctx);
   return _objectSpread({}, initialProps, {
     // Styles fragment is rendered after the app and page rendering finish.
-    styles: [__jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, {
+    styles: [__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
       key: "styles",
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 79,
+        lineNumber: 60,
         columnNumber: 13
       }
     }, initialProps.styles, sheets.getStyleElement())]
@@ -1343,17 +1335,6 @@ module.exports = require("react");
 /***/ (function(module, exports) {
 
 module.exports = require("styled-jsx/server");
-
-/***/ }),
-
-/***/ "styled-jsx/style":
-/*!***********************************!*\
-  !*** external "styled-jsx/style" ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("styled-jsx/style");
 
 /***/ }),
 

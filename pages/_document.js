@@ -19,6 +19,7 @@ class MyDocument extends Document {
                         name="theme-color"
                         content={theme.palette.primary.main}
                     />
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
                     <link
                         rel="stylesheet"
                         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"
@@ -30,26 +31,6 @@ class MyDocument extends Document {
                     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"/>
                     <meta name="msapplication-TileColor" content="#da532c"/>
                     <meta name="theme-color" content="#ffffff"></meta>
-                    <style jsx global>
-                        {`
-                            html,
-                            body {
-                                height: 100%;
-                                width: 100%;
-                            }
-                            *,
-                            *:after,
-                            *:before {
-                                box-sizing: border-box;
-                            }
-                            body {
-                                font-family: "Roboto", "Helvetica", "Arial",
-                                    sans-serif;
-                                font-size: 1rem;
-                                margin: 0;
-                            }
-                        `}
-                    </style>
                 </Head>
                 <body>
                     <Main />
