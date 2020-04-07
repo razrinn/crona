@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles, Typography } from '@material-ui/core';
 import { useLastUpdate } from '../utils/fetcher';
+import Spacer from './Spacer';
 
 const useStyles = makeStyles({
     link: {
@@ -17,10 +18,12 @@ const LastUpdate = () => {
         return date ?lastUpdate.toDateString().split(' ').slice(1).join(' ') : "Loading..."
     }
     return (
-        <Typography component="p" className={classes.noMargin}>
-            Update terakhir : <span className={classes.date}>{getCleanDate(lastUpdate)}</span>.
-            <a className={classes.link} href="https://github.com/mathdroid/indonesia-covid-19-api/" target="_blank">Sumber Data</a>
-        </Typography>
+        <Spacer variant="verticalTop">
+            <Typography component="p" className={classes.noMargin}>
+                Update terakhir : <span className={classes.date}>{getCleanDate(lastUpdate)}</span>.
+                <a className={classes.link} href="https://github.com/mathdroid/indonesia-covid-19-api/" target="_blank">Sumber Data</a>
+            </Typography>
+        </Spacer>
     );
 };
 

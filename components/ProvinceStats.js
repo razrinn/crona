@@ -7,12 +7,15 @@ import { useProvinceStats } from "../utils/fetcher";
 const ProvinceStats = () => {
     const stats = useProvinceStats();
     const [limit, setLimit] = useState(8);
-    const handleChangeLimit = () => {
+    const handleShowMore = () => {
         setLimit(limit + 8);
     };
+    const handleShowLess = () => {
+        setLimit(8);
+    }
     if (!stats) return "Fetching data please wait ...";
     return (
-        <div>
+        <Spacer variant="vertical">
             <Spacer variant="verticalBottom">
                 <Typography component="h2" variant="h5" style={{fontWeight: "bold"}}>
                     Kasus Berdasarkan Provinsi
@@ -25,19 +28,28 @@ const ProvinceStats = () => {
                     </Grid>
                 ))}
             </Grid>
-            {limit < stats.data.length ? (
-                <Spacer variant="verticalTop">
+            <Spacer variant="verticalTop">
+                {limit < stats.data.length ? (
+                        <Typography
+                            component="p"
+                            align="center"
+                            onClick={handleShowMore}
+                            style={{cursor: "pointer"}}
+                        >
+                            Tampilkan lebih banyak
+                        </Typography>
+                ) : (
                     <Typography
-                        component="p"
-                        align="center"
-                        onClick={handleChangeLimit}
-                        style={{cursor: "pointer"}}
-                    >
-                        Tampilkan lebih banyak
-                    </Typography>
-                </Spacer>
-            ) : null}
-        </div>
+                            component="p"
+                            align="center"
+                            onClick={handleShowLess}
+                            style={{cursor: "pointer"}}
+                        >
+                            Tampilkan lebih sedikit
+                        </Typography>
+                )}
+            </Spacer>
+        </Spacer>
     );
 };
 
