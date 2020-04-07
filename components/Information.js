@@ -29,7 +29,7 @@ const Information = () => {
                 </Grid>
                 <Grid item xs={12} md={6}>
                     <Spacer variant="vertical">
-                        <Typography component="h5" className={classes.title}>
+                        <Typography component="h2" variant="h5" className={classes.title}>
                             Apa itu COVID-19?
                         </Typography>
                         <Typography component="p">
