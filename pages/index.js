@@ -27,6 +27,7 @@ const IndexPage = () => {
     return (
         <Base>
             <Head>
+                <title>Crona Project | razrinn</title>
             </Head>
             <Container maxWidth="sm" className={classes.container}>
                 <Spacer variant="vertical">
