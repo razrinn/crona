@@ -8,8 +8,9 @@ const useStyles = makeStyles({
     root: {
         borderLeft: "5px solid #6C63FF"
     },
-    bold: {
-        fontWeight: "bold"
+    province: {
+        fontWeight: "bold",
+        minHeight: "3em"
     },
     card: {
     },
@@ -26,7 +27,7 @@ const ProvinceCard = props => {
     return (
         <Card className={classes.root}>
             <CardContent>
-                <Typography component="p" className={classes.bold}  >
+                <Typography component="p" className={classes.province}  >
                     {stat.provinsi}
                 </Typography>
                 <Typography component="p" variant="subtitle2">
