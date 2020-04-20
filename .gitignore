@@ -15,3 +15,5 @@ yarn-error.log*
 # cPanel
 app.js
 tmp
+
+.vscode

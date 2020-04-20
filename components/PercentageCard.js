@@ -8,7 +8,8 @@ const useStyles = makeStyles({
     },
     number: {
         fontWeight: "bold",
-        color: "#6C63FF"
+        color: "#6C63FF",
+        fontSize: "2em"
     },
     small: {
         fontSize: 12

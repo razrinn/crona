@@ -25,13 +25,13 @@ const SummaryStats = () => {
                 <Grid item xs={6}>
                     <StatsCard
                         number={stats.jumlahKasus}
-                        information="Jumlah Kasus"
+                        information="Total Kasus Positif"
                     />
                 </Grid>
                 <Grid item xs={6}>
                     <StatsCard
                         number={stats.perawatan}
-                        information="Kasus Positif"
+                        information="Kasus Aktif"
                     />
                 </Grid>
                 <Grid item xs={6}>

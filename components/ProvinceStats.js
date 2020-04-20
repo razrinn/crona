@@ -14,6 +14,11 @@ const ProvinceStats = () => {
         setLimit(8);
     }
     if (!stats) return "Fetching data please wait ...";
+    const showMore = {
+        cursor: "pointer",
+        fontWeight: "bold",
+        color: "#6C63FF"
+    }
     return (
         <Spacer variant="vertical">
             <Spacer variant="verticalBottom">
@@ -34,7 +39,7 @@ const ProvinceStats = () => {
                             component="p"
                             align="center"
                             onClick={handleShowMore}
-                            style={{cursor: "pointer"}}
+                            style={showMore}
                         >
                             Tampilkan lebih banyak
                         </Typography>
@@ -43,7 +48,7 @@ const ProvinceStats = () => {
                             component="p"
                             align="center"
                             onClick={handleShowLess}
-                            style={{cursor: "pointer"}}
+                            style={showMore}
                         >
                             Tampilkan lebih sedikit
                         </Typography>

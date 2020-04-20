@@ -7,6 +7,7 @@ import PropTypes from 'prop-types';
 const useStyles = makeStyles({
     root: {
     //   minWidth: 275,
+        borderBottom: "2px solid #6C63FF"
     },
     number: {
         fontWeight: "bold",
@@ -17,7 +18,7 @@ const StatsCard = props => {
     const classes = useStyles();
     const {number, information} = props;
     return (
-        <Card className={classes.root}>
+        <Card className={classes.root} raised={true}>
             <CardContent>
                 <Typography component="p" variant="h3" className={classes.number}>
                     {number}

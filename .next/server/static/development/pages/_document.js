@@ -1141,6 +1141,15 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
         lineNumber: 23,
         columnNumber: 21
       }
+    }), __jsx("meta", {
+      name: "theme-color",
+      content: "#ffffff",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27,
+        columnNumber: 21
+      }
     }), __jsx("link", {
       rel: "apple-touch-icon",
       sizes: "180x180",
@@ -1148,7 +1157,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 27,
+        lineNumber: 28,
         columnNumber: 21
       }
     }), __jsx("link", {
@@ -1159,7 +1168,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28,
+        lineNumber: 29,
         columnNumber: 21
       }
     }), __jsx("link", {
@@ -1170,7 +1179,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 29,
+        lineNumber: 30,
         columnNumber: 21
       }
     }), __jsx("link", {
@@ -1179,56 +1188,28 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 30,
-        columnNumber: 21
-      }
-    }), __jsx("link", {
-      rel: "mask-icon",
-      href: "/safari-pinned-tab.svg",
-      color: "#5bbad5",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
         lineNumber: 31,
-        columnNumber: 21
-      }
-    }), __jsx("meta", {
-      name: "msapplication-TileColor",
-      content: "#da532c",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 32,
-        columnNumber: 21
-      }
-    }), __jsx("meta", {
-      name: "theme-color",
-      content: "#ffffff",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 33,
         columnNumber: 21
       }
     })), __jsx("body", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 35,
+        lineNumber: 33,
         columnNumber: 17
       }
     }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 36,
+        lineNumber: 34,
         columnNumber: 21
       }
     }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 37,
+        lineNumber: 35,
         columnNumber: 21
       }
     })));
@@ -1246,7 +1227,7 @@ MyDocument.getInitialProps = async ctx => {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 51,
+        lineNumber: 49,
         columnNumber: 60
       }
     })))
@@ -1260,7 +1241,7 @@ MyDocument.getInitialProps = async ctx => {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 60,
+        lineNumber: 58,
         columnNumber: 13
       }
     }, initialProps.styles, sheets.getStyleElement())]

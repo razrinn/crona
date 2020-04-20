@@ -14,7 +14,7 @@ import Header from "../components/Header";
 
 const useStyles = makeStyles({
     container: {
-        backgroundColor: "#F5F5F5",
+        background: "linear-gradient(180deg, rgba(219, 207, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), #F5F5F5",
         minHeight: "100vh",
     },
     navLink: {
@@ -40,8 +40,8 @@ const IndexPage = () => {
             <Container maxWidth="md" className={classes.container}>
                 <Header />
                 <Information />
-                <LastUpdate />
                 <SummaryStats />
+                <LastUpdate />
                 <PercentageStats />
                 <StatsCharts />
                 <ProvinceStats />
