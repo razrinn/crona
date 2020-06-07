@@ -21,23 +21,17 @@ const useProvinceStats = () => fetchData(areaUrl);
 const useLastUpdate = () => {
     const response = fetchData(dailyUrl);
     return response
-        ?
-        response.data[response.data.length - 1].jumlahKasusBaruperHari
-        ?
-        new Date(response.data[response.data.length - 1].tanggal)
-        :
-        new Date(response.data[response.data.length - 2].tanggal)
+        ? response.data[response.data.length - 1].jumlahKasusBaruperHari
+            ? new Date(response.data[response.data.length - 1].tanggal)
+            : new Date(response.data[response.data.length - 2].tanggal)
         : null;
 };
 const usePercentageStats = () => {
     const response = fetchData(dailyUrl);
     const recentData = response
-        ? 
-        response.data[response.data.length - 1].jumlahKasusBaruperHari
-        ?
-        response.data[response.data.length - 1]
-        :
-        response.data[response.data.length - 2]
+        ? response.data[response.data.length - 1].jumlahKasusBaruperHari
+            ? response.data[response.data.length - 1]
+            : response.data[response.data.length - 2]
         : null;
     return recentData
         ? {

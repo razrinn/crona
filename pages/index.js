@@ -38,7 +38,7 @@ const IndexPage = () => {
                 <title>Crona | razrinn</title>
             </Head>
             <Container maxWidth="md" className={classes.container}>
-                <Header />
+                {/* <Header /> */}
                 <Information />
                 <SummaryStats />
                 <LastUpdate />
